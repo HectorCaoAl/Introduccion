@@ -1,4 +1,5 @@
 <?php
+// OK
     $mode = ($_GET["mode"] ?? ($_COOKIE["mode"] ?? "light"));
     setcookie("mode". $mode, time() + 30 * 24 *60 *60);
     
